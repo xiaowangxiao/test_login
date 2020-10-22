@@ -14,8 +14,7 @@ class UserController extends Controller{
 	*注册接口
 	*/
 	public function register(AuthServices $authServices,Request $request){
-		$a =2;
-		$cc = '110';
+		$a =1222;
 		$message = [
 			'username.required'=>'用户名不能为空',
 			'password.required'=>'密码不能为空',
@@ -66,6 +65,7 @@ class UserController extends Controller{
 	*下单
 	*/
 	public function pay(AuthServices $authServices,Request $request){
+		$a=222;
 		$message = [
 			'username.required'=>'用户名不能为空',
 			'money.required'=>'下单金额不能为空',
