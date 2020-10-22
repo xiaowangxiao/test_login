@@ -15,6 +15,7 @@ class UserController extends Controller{
 	*/
 	public function register(AuthServices $authServices,Request $request){
 		$a =2;
+		$cc = '110';
 		$message = [
 			'username.required'=>'用户名不能为空',
 			'password.required'=>'密码不能为空',
