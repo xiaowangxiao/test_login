@@ -41,6 +41,7 @@ class UserController extends Controller{
 	*登录接口
 	*/
 	public function login(AuthServices $authServices,Request $request){
+		$a =1222;
 		$message = [
 			'username.required'=>'用户名不能为空',
 			'password.required'=>'密码不能为空',
