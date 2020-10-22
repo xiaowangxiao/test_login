@@ -94,6 +94,8 @@ class UserController extends Controller{
 	}
 	  public function sql_dump()
 	  {  
+
+	  	dd(1111);
 	    \DB::listen(function ($sql) {
 	      $i = 0;
 	      $bindings = $sql->bindings;
